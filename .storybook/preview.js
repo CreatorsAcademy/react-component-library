@@ -9,11 +9,19 @@
 } */
 
 import React from "react";
+//import { addDecorator } from "@storybook/react";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "../src/theme/index";
+
+//addDecorator((story) => <ThemeProvider theme={theme}>{story()}</ThemeProvider>);
+export const parameters = {
+    actions: { argTypesRegex: "^on[A-Z].*" },
+};
 
 export const decorators = [
-    (Story) => (
-        <div /* style={{ margin: "3em" }} */>
-            <Story />
-        </div>
+    (Story, context) => (
+        <ThemeProvider theme={theme}>
+            <Story {...context} />
+        </ThemeProvider>
     ),
 ];
