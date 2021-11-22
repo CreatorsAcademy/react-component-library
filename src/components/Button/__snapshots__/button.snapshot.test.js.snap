@@ -19,6 +19,6 @@ exports[`renders button 1`] = `
   tabIndex={0}
   type="button"
 >
-  Facebook
+  Button
 </button>
 `;
