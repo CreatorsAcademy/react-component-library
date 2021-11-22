@@ -1,13 +1,13 @@
-import Button from "@mui/material/Button";
+import MUIButton from "@mui/material/Button";
 
-export default function MSButton({
+export default function Button({
     variant = "contained",
     leftIcon,
     rightIcon,
     ...otherProps
 }) {
     return (
-        <Button
+        <MUIButton
             variant={variant}
             {...(leftIcon && { startIcon: leftIcon })}
             {...(rightIcon && { endIcon: rightIcon })}
