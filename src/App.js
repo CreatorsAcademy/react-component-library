@@ -11,7 +11,7 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Checkbox label="Actions" name="actions" />
+            <div>Import components here</div>
         </ThemeProvider>
     );
 }
