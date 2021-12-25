@@ -1,4 +1,4 @@
-import Checkbox from "./index";
+import Checkbox from "@mui/material/Checkbox";
 
 export default {
     title: "Components/Checkbox",

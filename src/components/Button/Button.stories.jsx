@@ -13,7 +13,7 @@ export default {
     argTypes: {
         variant: {
             options: ["contained", "outlined"],
-            control: { type: "radio" },
+            control: { type: "inline-radio" },
         },
         size: {
             control: { type: "radio" },
