@@ -67,7 +67,7 @@ const options = [
 const Fields = () => (
     <Stack spacing={2}>
         <div></div>
-        <TextField id="outlined-basic" label="Name" variant="outlined" />
+        <TextField id="outlined-basic" /* label="Name" */ variant="outlined" />
         <TextField
             id="outlined-textarea"
             label="Description"
@@ -130,10 +130,15 @@ Customized.args = {
     title: "Profile",
     defaultOpen: true,
     children: <h2>Content</h2>,
-    mx: { width: 600, backgroundColor: "aqua", border: "3px solid blue", " h2": {
-        color: "red",
+    mx: {
+        width: 600,
+        backgroundColor: "aqua",
+        border: "3px solid blue",
+        " h2": {
+            color: "red",
+        },
+        " summary": {
+            color: "blue",
+        },
     },
-    " summary": {
-        color: "blue"
-    } },
 };
