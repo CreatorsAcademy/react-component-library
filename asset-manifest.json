@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/CreatorsAcademy/react-component-library/static/js/main.7c9211be.chunk.js",
+    "main.js.map": "/CreatorsAcademy/react-component-library/static/js/main.7c9211be.chunk.js.map",
+    "runtime-main.js": "/CreatorsAcademy/react-component-library/static/js/runtime-main.2104efa2.js",
+    "runtime-main.js.map": "/CreatorsAcademy/react-component-library/static/js/runtime-main.2104efa2.js.map",
+    "static/js/2.d1c379ed.chunk.js": "/CreatorsAcademy/react-component-library/static/js/2.d1c379ed.chunk.js",
+    "static/js/2.d1c379ed.chunk.js.map": "/CreatorsAcademy/react-component-library/static/js/2.d1c379ed.chunk.js.map",
+    "static/js/3.382a48f0.chunk.js": "/CreatorsAcademy/react-component-library/static/js/3.382a48f0.chunk.js",
+    "static/js/3.382a48f0.chunk.js.map": "/CreatorsAcademy/react-component-library/static/js/3.382a48f0.chunk.js.map",
+    "index.html": "/CreatorsAcademy/react-component-library/index.html",
+    "static/js/2.d1c379ed.chunk.js.LICENSE.txt": "/CreatorsAcademy/react-component-library/static/js/2.d1c379ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2104efa2.js",
+    "static/js/2.d1c379ed.chunk.js",
+    "static/js/main.7c9211be.chunk.js"
+  ]
+}
